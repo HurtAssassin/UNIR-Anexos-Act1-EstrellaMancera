@@ -1,0 +1,132 @@
+﻿{
+    "ReservationId": "r-0f80a8fec1f441bf7",
+    "OwnerId": "087937948707",
+    "Groups": [],
+    "Instances": [
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "9bc23b36-17f0-4293-8de0-706b59c136e9",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2025-11-19T03:52:47+00:00",
+                        "AttachmentId": "eni-attach-02f4c1f34a8e1c45c",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupId": "sg-02f053e55e9b0a368",
+                            "GroupName": "launch-wizard-1"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "02:4f:29:f0:41:9f",
+                    "NetworkInterfaceId": "eni-07fb8dfd59cfffe27",
+                    "OwnerId": "087937948707",
+                    "PrivateDnsName": "ip-172-31-0-28.ec2.internal",
+                    "PrivateIpAddress": "172.31.0.28",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-0-28.ec2.internal",
+                            "PrivateIpAddress": "172.31.0.28"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-079d6ae95553d5502",
+                    "VpcId": "vpc-0539facd86b20aaae",
+                    "InterfaceType": "interface",
+                    "Operator": {
+                        "Managed": false
+                    }
+                }
+            ],
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupId": "sg-02f053e55e9b0a368",
+                    "GroupName": "launch-wizard-1"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "nginx-node-auto"
+                }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "optional",
+                "HttpPutResponseHopLimit": 1,
+                "HttpEndpoint": "enabled",
+                "HttpProtocolIpv6": "disabled",
+                "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            },
+            "PrivateDnsNameOptions": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+                "AutoRecovery": "default",
+                "RebootMigration": "default"
+            },
+            "CurrentInstanceBootMode": "legacy-bios",
+            "Operator": {
+                "Managed": false
+            },
+            "InstanceId": "i-004b74e631e105bb9",
+            "ImageId": "ami-0acc26f2c3cb45e96",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "PrivateDnsName": "ip-172-31-0-28.ec2.internal",
+            "PublicDnsName": "",
+            "StateTransitionReason": "",
+            "KeyName": "packer-nginx",
+            "AmiLaunchIndex": 0,
+            "ProductCodes": [],
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2025-11-19T03:52:47+00:00",
+            "Placement": {
+                "AvailabilityZoneId": "use1-az1",
+                "GroupName": "",
+                "Tenancy": "default",
+                "AvailabilityZone": "us-east-1a"
+            },
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "SubnetId": "subnet-079d6ae95553d5502",
+            "VpcId": "vpc-0539facd86b20aaae",
+            "PrivateIpAddress": "172.31.0.28"
+        }
+    ]
+}
